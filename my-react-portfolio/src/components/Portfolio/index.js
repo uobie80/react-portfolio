@@ -16,31 +16,31 @@ const projects = [
   },
   {
     title: 'Visual Learning Tool',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Learn new words for the visual learner',
     imageURL: visualLearningTool,
     siteURL: 'https://uobie80.github.io/visual-learning-tool/'
   },
   {
     title: 'Text Editor',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Installable text editor.',
     imageURL: textEditor,
     siteURL: 'https://uchenna-text-editor.herokuapp.com/'
   },
  {
     title: 'Weather Dashboard',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Get the latest weather in your area.',
     imageURL: wd,
     siteURL: 'https://uobie80.github.io/weather-dashboard'
   },
   {
     title: 'Note Taker App',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Note taking app as a daily planner.',
     imageURL: NoteTaker,
     siteURL: 'https://my-note-app.herokuapp.com/'
   },
   {
     title: 'Verpur Online Store',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Need an affordable laptop then visit this site.',
     imageURL: verpur,
     siteURL: 'https://verpur.herokuapp.com/'
   }
