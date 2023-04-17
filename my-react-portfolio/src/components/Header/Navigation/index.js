@@ -1,14 +1,14 @@
 import React from "react";
 import Avatar from "../../../images/avatar-circle.png";
 
-export default function Navigation() {
+export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark fixed-top bg-primary"
       aria-label="Uchenna's Portfolio navigation header"
     >
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#About" onClick={() => handlePageChange('About')}>
           <img
             src={Avatar}
             width="30"
@@ -34,22 +34,22 @@ export default function Navigation() {
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="navbar-nav me-auto mb-2 mb-md-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#About" onClick={() => handlePageChange('About')}>
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#Portfolio" onClick={() => handlePageChange('Portfolio')}>
                 Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#Contact" onClick={() => handlePageChange('Contact')}>
                 Contact
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#Resume" onClick={() => handlePageChange('Resume')}>
                 Resume
               </a>
             </li>

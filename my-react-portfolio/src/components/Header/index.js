@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "../Header/Navigation/index";
-import Content from "../Header/Navigation/Content";
+import Content from "../Content/index.js";
 
 export default function Header() {
   return (
