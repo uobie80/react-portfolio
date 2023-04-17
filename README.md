@@ -39,5 +39,7 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
 ## Page Mock Up
+![Portfolio](./my-react-portfolio/src/images/page-mock-up.png?raw=true "Portfolio Site")
 
 ## Link to Website
+Please refer to the following link to access my portfolio site. [Portfolio Site]() 
