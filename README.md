@@ -42,4 +42,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ![Portfolio](./my-react-portfolio/src/images/page-mock-up.png?raw=true "Portfolio Site")
 
 ## Link to Website
-Please refer to the following link to access my portfolio site. [Portfolio Site]() 
+Please refer to the following link to access my portfolio site. [Portfolio Site](https://uobie80.github.io/react-portfolio/) 
