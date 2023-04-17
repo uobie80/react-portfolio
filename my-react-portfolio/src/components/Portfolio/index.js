@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: 'Text Editor',
-    description: 'Installable text editor that demonstrates a progressive web applicaiton',
+    description: 'Text editor that demonstrates a progressive web applicaiton',
     imageURL: textEditor,
     siteURL: 'https://uchenna-text-editor.herokuapp.com/'
   },
