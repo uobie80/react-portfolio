@@ -10,7 +10,7 @@ import NoteTaker from '../../images/note-taker.png';
 const projects = [
   {
     title: 'Password Generator',
-    description: 'Site that generates a random password.',
+    description: 'Site that generates a random password',
     imageURL: pwdGenerator,
     siteURL: 'https://uobie80.github.io/PasswordGenerator/'
   },
@@ -22,25 +22,25 @@ const projects = [
   },
   {
     title: 'Text Editor',
-    description: 'Installable text editor.',
+    description: 'Installable text editor that demonstrates a progressive web applicaiton',
     imageURL: textEditor,
     siteURL: 'https://uchenna-text-editor.herokuapp.com/'
   },
  {
     title: 'Weather Dashboard',
-    description: 'Get the latest weather in your area.',
+    description: 'Get the latest weather in your area using this application',
     imageURL: wd,
     siteURL: 'https://uobie80.github.io/weather-dashboard'
   },
   {
     title: 'Note Taker App',
-    description: 'Note taking app as a daily planner.',
+    description: 'Simple note taking app that can be used as a daily planner',
     imageURL: NoteTaker,
     siteURL: 'https://my-note-app.herokuapp.com/'
   },
   {
     title: 'Verpur Online Store',
-    description: 'Need an affordable laptop then visit this site.',
+    description: 'Need an affordable laptop then visit this site',
     imageURL: verpur,
     siteURL: 'https://verpur.herokuapp.com/'
   }
