@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: 'MedHub Online Store',
-    description: 'Medical Care product for your healthcare needs',
+    description: 'Medical care products for your healthcare needs',
     imageURL: Medhub,
     siteURL: 'https://med-hub.herokuapp.com/'
   }
