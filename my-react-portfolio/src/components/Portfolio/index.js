@@ -6,6 +6,7 @@ import pwdGenerator from '../../images/password-generator.png';
 import textEditor from '../../images/text-editor.png';
 import visualLearningTool from '../../images/visual_learning.png';
 import NoteTaker from '../../images/note-taker.png';
+import Medhub from '../../images/medhub.png';
 
 const projects = [
   {
@@ -26,7 +27,7 @@ const projects = [
     imageURL: textEditor,
     siteURL: 'https://uchenna-text-editor.herokuapp.com/'
   },
- {
+  {
     title: 'Weather Dashboard',
     description: 'Get the latest weather in your area using this application',
     imageURL: wd,
@@ -43,14 +44,20 @@ const projects = [
     description: 'Need an affordable laptop then visit this site',
     imageURL: verpur,
     siteURL: 'https://verpur.herokuapp.com/'
+  },
+  {
+    title: 'MedHub Online Store',
+    description: 'Medical Care product for your healthcare needs',
+    imageURL: Medhub,
+    siteURL: 'https://med-hub.herokuapp.com/'
   }
 
 ]
 
 export default function Portfolio() {
   return (
- 
-      <main class="container" role="main">
+
+    <main class="container" role="main">
       <div class="container-fluid jumbotron jumbotron-portfolio py-5">
         <div class="container">
           <h1 class="display-3 fw-bold text-white">Portfolio</h1>
@@ -58,15 +65,15 @@ export default function Portfolio() {
       </div>
       <div class="container">
         <div class="row row-cols-3 row-cols-md-4 g-4">
-      {projects.map(project => (
-        <Project
-          key={project.siteURL}
-          title={project.title}
-          description={project.description}
-          imageURL={project.imageURL}
-          siteURL={project.siteURL}
-        />
-      ))}
+          {projects.map(project => (
+            <Project
+              key={project.siteURL}
+              title={project.title}
+              description={project.description}
+              imageURL={project.imageURL}
+              siteURL={project.siteURL}
+            />
+          ))}
         </div>
       </div>
     </main>
